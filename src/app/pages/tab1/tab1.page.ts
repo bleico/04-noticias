@@ -21,7 +21,7 @@ export class Tab1Page implements OnInit {
     .subscribe( (resp: RespuestaTopHeadlines) => {
       console.log('noticias', resp);
       // this.noticias = resp.articles;
-      this.noticias.push( ...resp.articles )
+      this.noticias.push(...resp.articles);
     });
   }
 
